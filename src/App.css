@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.flexingInRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.Ul {
+  list-style-type: none;
+  background-color: #5763a5;
+  height: 400px;
+}
+.blueColor {
+  background-color: #5763a5;
+}
+.bgForUser {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  padding: 44px;
+  font-family: Roboto;
+}
+.PasswordsImageBottom {
+  height: 200px;
+  width: 250px;
+}
+.LogoTop {
+  height: 80px;
+  width: 260px;
+}
+
+.topRightImage {
+  margin: 14px;
+  height: 340px;
+  width: 340px;
+  margin-right: 100px;
+  padding-bottom: 22px;
+}
+.topFlexItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5763a5;
+  height: 400px;
+  padding: 33px;
+  margin-top: 7px;
+}
+.UserCredentials {
+  display: flex;
+  flex-direction: column;
+  background-color: #454f84;
+  padding: 22px;
+  height: 300px;
+  width: 300px;
+  border-radius: 23px;
+}
+.WebLogo {
+  height: 27px;
+  width: 27px;
+  background-color: #ffffff;
+}
+.WebInputs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 13px;
+}
+.InputsWebSite {
+  height: 27px;
+  width: 250px;
+  border: 0px;
+  outline: none;
+}
+.CardPara {
+  color: #ffffff;
+  font-size: 17px;
+  margin-bottom: 22px;
+}
+.UserLogoInputField {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 13px;
+}
+.UserLogo {
+  height: 27px;
+  width: 27px;
+  background-color: #ffffff;
+}
+.userNameInput {
+  height: 27px;
+  width: 250px;
+  border: 0px;
+  outline: none;
+}
+.PasswordFields {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 13px;
+}
+.passwordLogo {
+  height: 27px;
+  width: 27px;
+  background-color: #ffffff;
+}
+.userPasswordInputs {
+  height: 27px;
+  width: 250px;
+  border: 0px;
+  outline: none;
+}
+.buttonAdder {
+  text-align: right;
+  margin-top: 12px;
+}
+.AddingButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  height: 25px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.lengthShow {
+  display: flex;
+  flex-direction: row;
+}
+.ShowingLength {
+  border: 0.7px solid #c3caea;
+  width: 33px;
+  margin-top: 17px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 8px;
+  border-radius: 200px;
+}
+.YourPassword {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.SearchFiled {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 13px;
+  margin: 18px;
+}
+.SearchLogo {
+  height: 27px;
+  width: 27px;
+  background-color: #ffffff;
+}
+.SearchFiledInput {
+  height: 27px;
+  width: 250px;
+  border: 0px;
+}
+.BottomLengthAndSearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checking {
+  text-align: right;
+  margin-right: 140px;
+}
+.ShowPara {
+  color: #ffffff;
+}
+.BottomImage {
+  text-align: center;
+}
+.NoPassword {
+  color: #ffffff;
+}
+.ShowingBelow {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .topFlexItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+  }
+  .orderingZero {
+    order: 0;
+  }
+  .UserCredentials {
+    order: 1;
+  }
+
+  .topRightImage {
+    margin: 14px;
+    height: 240px;
+    width: 250px;
+    margin-right: 0px;
+    padding-bottom: 22px;
+  }
+  .bgForUser {
+    width: 100vw;
+    padding: 13px;
+    padding-right: 22px;
+  }
+  .SearchFiledInput {
+    height: 27px;
+    width: 110px;
+  }
+  .SearchFiledInput {
+    border: 0px;
+    outline: none;
+  }
+  .YourPassword {
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    margin-top: 21px;
+  }
+  .ShowingLength {
+    margin-top: 22px;
+  }
+  .checking {
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-right: 19px;
+  }
+  .ShowingBelow {
+    display: flex;
+    flex-direction: column;
+  }
+}
